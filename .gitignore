@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime storage
+storage/*
+!storage/.gitkeep
+
+# Large 3D / point-cloud files
+*.ply
+*.pcd
+*.las
+*.laz
+*.e57
+*.obj
+*.stl
+*.glb
+*.gltf
+*.3ds
+*.fbx
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
